@@ -1,0 +1,21 @@
+.products{
+    padding: 120px 20px 50px;
+    display: grid;                /*colunas     tamanho do card*/
+    grid-template-columns: repeat(  auto-fill,     minmax( 200px, 1fr)); 
+    gap: 20px;
+}
+
+/*a função auto-fill  preenche a tela e dimunui a quantidade de elemento com a mudança da resolução*/
+/*
+auto-fill preenche a tela e diminue a quantidade de itens.
+
+minmax(200px, 1fr)); 
+limita a resolução minima de exibição
+
+
+'1fr' esse comando diz que é para ocupar todo o espaço disponivel
+
+'gap:20px ' cria uma margem entre todos os elementos da pagina
+
+
+*/
