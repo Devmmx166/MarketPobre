@@ -1,7 +1,9 @@
 
 import './App.css'
-//import { Route, Routes } from 'react-router-dom'
-import WebPage from './pages/WebPage'
+import { Route, Routes } from 'react-router-dom'
+
+import Header from './components/Header/Header'
+import Products from './pages/Products/Products'
 
 
 function App() {
@@ -9,16 +11,14 @@ function App() {
 
   return (
     <div>
+     <Header/>
+    <Routes>      
+      <Route  path='/' element={ <Products/> }/> 
+    </Routes>
      
-   
-       <WebPage/> 
   
     </div>
   )
 }
 
 export default App
-{/* <Routes>
-      <Route  path='/' element={ <WebPage/> }/> 
-      </Routes>
-      <WebPage/> */}
