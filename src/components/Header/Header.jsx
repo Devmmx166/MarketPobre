@@ -3,6 +3,7 @@ import CartButton from "../CartBotton/Carbutton";
 import './Header.css';
 import Logo from "../Logo/Logo";
 import LoginButton from "../LoginButton/LoginButton";
+import Login from "../../pages/Login/Login";
 function Header(){
 
 return (
@@ -12,7 +13,7 @@ return (
     <div className="container-header" >
        <Logo/>
        <SearchBar/>
-       <LoginButton/>
+      <button onClick={<Login/>}><LoginButton/></button> 
        <button> <CartButton/></button>
     </div>
    </header>

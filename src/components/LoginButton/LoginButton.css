@@ -1,0 +1,10 @@
+#nome-login{
+font-size: 15px;
+margin: 4px;
+}
+.label-login{
+    font-size: 29px;
+display: flex;
+align-items: center;
+color: white;
+}
